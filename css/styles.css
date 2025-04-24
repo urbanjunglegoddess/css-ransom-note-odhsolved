@@ -2,6 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
 
+/* Omegea Font Choices */
+/* Kenia */
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+/* Yatra One */
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+/*Kablammo  font-variation - 43*/
+@import url('https://fonts.googleapis.com/css2?family=Kablammo:MORF@43&display=swap');
+/*Monoton*/
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+/* Rubik Glitch */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+
+
 * {
   padding: 0;
   margin: 0;

@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+
+/* Omegea Font Choices */
+/* Kenia */
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+/* Yatra One */
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+/*Kablammo  font-variation - 43*/
+@import url('https://fonts.googleapis.com/css2?family=Kablammo:MORF@43&display=swap');
+/*Monoton*/
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+/* Rubik Glitch */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  background-color: #282a56;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  flex-wrap: wrap;
+}
+
+.word {
+  max-width: max-content;
+  display: flex;
+  gap: 20px;
+}
+
+.word > span {
+  position: relative;
+  padding: 20px 30px;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90px;
+  max-height: 90px;
+  border: 6px solid grey;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.8s ease-in-out;
+}
+
+  /*Colors*/
+:root {
+  /* HEX Colors */
+  --neon-pink: #ff007f;
+  --electric-blue: #00f0ff;
+  --acid-green: #7fff00;
+  --cyber-grape: #58427c;
+  --hot-magenta: #ff1dce;
+  --deep-purple: #5d00ff;
+  --bright-cyan: #00ffe7;
+  --laser-lemon: #f9ff00;
+  --atomic-tangerine: #ff9966;
+  --vivid-red: #ff073a;
+
+  /* RGB Colors */
+  --neon-pink-rgb: 255, 0, 127;
+  --electric-blue-rgb: 0, 240, 255;
+  --acid-green-rgb: 127, 255, 0;
+  --cyber-grape-rgb: 88, 66, 124;
+  --hot-magenta-rgb: 255, 29, 206;
+  --deep-purple-rgb: 93, 0, 255;
+  --bright-cyan-rgb: 0, 255, 231;
+  --laser-lemon-rgb: 249, 255, 0;
+  --atomic-tangerine-rgb: 255, 153, 102;
+  --vivid-red-rgb: 255, 7, 58;
+
+  /* HSL Colors */
+  --neon-pink-hsl: 330, 100%, 50%;
+  --electric-blue-hsl: 183, 100%, 50%;
+  --acid-green-hsl: 90, 100%, 50%;
+  --cyber-grape-hsl: 260, 30%, 37%;
+  --hot-magenta-hsl: 312, 100%, 56%;
+  --deep-purple-hsl: 260, 100%, 50%;
+  --bright-cyan-hsl: 174, 100%, 50%;
+  --laser-lemon-hsl: 62, 100%, 50%;
+  --atomic-tangerine-hsl: 20, 100%, 70%;
+  --vivid-red-hsl: 345, 100%, 51%;
+}
+
+.neon-pink{
+  color: var(--neon-pink);
+}
+.electric-blue{
+  color: var(--electric-blue);
+}
+.acid-green{
+  color: var(--acid-green);
+}
+.cyber-grape{
+  color: var(--cyber-grape);
+}
+.hot-magenta{
+  color: var(--hot-magenta);
+}
+.deep-purple{
+  color: var(--deep-purple);
+}
+.bright-cyan{
+  color: var(--bright-cyan);
+}
+.laser-lemon{
+  color: var(--laser-lemon);
+}
+.atomic-tangerine{
+  color: var(--atomic-tangerine);
+}
+.vivid-red{
+  color: var(--vivid-red);
+}
+
+/* Backgrounds */
+.neon-pink-bg{
+  background-color: var(--neon-pink);
+}
+.electric-blue-bg{
+  background-color: var(--electric-blue);
+}
+.acid-green-bg{
+  background-color: var(--acid-green);
+}
+.cyber-grape-bg{
+  background-color: var(--cyber-grape);
+}
+.hot-magenta-bg{
+  background-color: var(--hot-magenta);
+}
+.deep-purple-bg{
+  background-color: var(--deep-purple);
+}
+.bright-cyan-bg{
+  background-color: var(--bright-cyan);
+}
+.laser-lemon-bg{
+  background-color: var(--laser-lemon);
+}
+.atomic-tangerine-bg{
+  background-color: var(--atomic-tangerine);
+}
+.vivid-red-bg{
+  background-color: var(--vivid-red);
+}
+
+

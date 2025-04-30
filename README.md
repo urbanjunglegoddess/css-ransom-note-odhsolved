@@ -47,28 +47,28 @@ This assignment should prove that a student is able to:
 
 ## Specific requirements
 
-- [ ] Check out the sample image of a completed assignment to see the expected outcome in /assets/images/. You don't need to imitate it exactly, feel free to use any desired letter styles.
-- [ ] You should have at least 10 different styles for the letters. A "unique" style means a distinct combination of:
+- [x] Check out the sample image of a completed assignment to see the expected outcome in /assets/images/. You don't need to imitate it exactly, feel free to use any desired letter styles.
+- [x] You should have at least 10 different styles for the letters. A "unique" style means a distinct combination of:
   - Font size
   - Font color
   - Font weight
   - Font decoration
   - Font transformation
   - Font family
-- [ ] Set the font size using fixed pixel values.
+- [x] Set the font size using fixed pixel values.
 - [ ] Use at least two color systems of your choice for setting the color (hex, rgb, hsl, etc.).
-- [ ] Ensure each font weight value from the given list is used at least once:
+- [x] Ensure each font weight value from the given list is used at least once:
   - Bold
   - Normal
   - 400
   - 700
-- [ ] Each text decoration value from the provided list should be used at least once:
+- [x] Each text decoration value from the provided list should be used at least once:
   - Underline
   - Line-through
   - Overline
   - None
-- [ ] Include capitalized letters.
-- [ ] Style every letter in the message.
+- [x] Include capitalized letters.
+- [x] Style every letter in the message.
 - [ ] Group selectors with the same styles.
 
   You can group the letter selectors by the common styles:
@@ -93,5 +93,5 @@ This assignment should prove that a student is able to:
   <div class="yellow-letter letter-two">W</div>
   ```
 
-- [ ] The HTML document should NOT have inline styles.
-- [ ] There are 3 Google Fonts connected to the project. Find and connect 3 more random fonts from Google fonts. Feel free to use [this article](https://www.webdesignerdepot.com/2021/09/21-exceptional-google-fonts-you-probably-havent-discovered-yet/) or the [Google Fonts](https://fonts.google.com/) platform for the fonts inspiration.
+- [x] The HTML document should NOT have inline styles.
+- [x] There are 3 Google Fonts connected to the project. Find and connect 3 more random fonts from Google fonts. Feel free to use [this article](https://www.webdesignerdepot.com/2021/09/21-exceptional-google-fonts-you-probably-havent-discovered-yet/) or the [Google Fonts](https://fonts.google.com/) platform for the fonts inspiration.

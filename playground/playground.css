@@ -135,6 +135,37 @@ body {
   color: var(--vivid-red);
 }
 
+.neon-pink-rgb{
+  color: rgb(var(--neon-pink-rgb));
+}
+.electric-blue-rgb{
+  color: rgb(var(--electric-blue-rgb));
+} 
+.acid-green-rgb{
+  color: rgb(var(--acid-green-rgb));
+}
+.cyber-grape-rgb{
+  color: rgb(var(--cyber-grape-rgb));
+}
+.hot-magenta-rgb{
+  color: rgb(var(--hot-magenta-rgb));
+}
+.deep-purple-rgb{
+  color: rgb(var(--deep-purple-rgb));
+}
+.bright-cyan-rgb{
+  color: rgb(var(--bright-cyan-rgb));
+}
+.laser-lemon-rgb{
+  color: rgb(var(--laser-lemon-rgb));
+}
+.atomic-tangerine-rgb{
+  color: rgb(var(--atomic-tangerine-rgb));
+}
+.vivid-red-rgb{
+  color: rgb(var(--vivid-red-rgb));
+}
+
 /* Backgrounds */
 .neon-pink-bg{
   background-color: var(--neon-pink);

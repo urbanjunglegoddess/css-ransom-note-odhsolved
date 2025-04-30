@@ -96,7 +96,7 @@ body {
 .didDLetter {
   font-size: 50px;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: line-through;
   text-transform: uppercase;
   font-family: 'Yatra One', sans-serif;
 }
@@ -130,7 +130,7 @@ body {
 .theHLetter {
   font-size: 92px;
   font-weight: 700px;
-  text-decoration: overline;
+  text-decoration: line-through;
   text-transform: lowercase;
   font-family: 'Piazolla', sans-serif;
 }
@@ -173,7 +173,7 @@ body {
   font-size: 66px;
   font-weight: normal;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: line-through;
   text-transform: uppercase;
   font-family: 'Rubik Glitch', sans-serif;
 }
@@ -215,7 +215,7 @@ body {
 .developerDLetter {
   font-size: 100px;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: line-through;
   text-transform: uppercase;
   font-family: 'Monoton', sans-serif;
 }
@@ -288,7 +288,7 @@ body {
 .takeALetter {
   font-size: 47px;
   font-weight:lighter;
-  text-decoration: overline;
+  text-decoration: line-through;
   text-transform: lowercase;
   font-family: 'Yatra One', sans-serif;
 }
@@ -312,7 +312,7 @@ body {
 .upULetter {
   font-size: 72px;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: none;
   text-transform: uppercase;
   font-family: 'Rubik Glitch', sans-serif;
 }
@@ -329,7 +329,7 @@ body {
 .gardeningGLetter {
   font-size: 105px;
   font-weight:lighter;
-  text-decoration: underline;
+  text-decoration: none;
   text-transform: uppercase;
   font-family: 'Ceviche One', sans-serif;
 }
@@ -364,21 +364,21 @@ body {
 .gardeningNLetter {
   font-size: 79px;
   font-weight: normal;
-  text-decoration: none;
+  text-decoration: line-through;
   text-transform: uppercase;
   font-family: 'Piazolla', sans-serif;
 }
 .gardeningILetter {
   font-size: 58px;
   font-weight: normal;
-  text-decoration: underline;
+  text-decoration:none;
   text-transform: uppercase;
   font-family: 'Ceviche One', sans-serif;
 }
 .gardeningNTwoLetter {
   font-size: 38px;
   font-weight: normal;
-  text-decoration: overline;
+  text-decoration: line-through;
   text-transform: lowercase;
   font-family: 'Yatra One', sans-serif;
 }
@@ -530,7 +530,7 @@ body {
 .toOLetter {
   font-size: 72px;
   font-weight: normal;
-  text-decoration: overline;
+  text-decoration: line-through;
   text-transform: lowercase;
   font-family: 'Monoton', sans-serif;
 }
@@ -540,7 +540,7 @@ body {
 .improveILetter {
   font-size: 78px;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: none;
   text-transform: uppercase;
   font-family: 'Rubik Glitch', sans-serif;
 }
@@ -568,14 +568,14 @@ body {
 .improveOLetter {
   font-size: 79px;
   font-weight: normal;
-  text-decoration: overline;
+  text-decoration: none;
   text-transform: lowercase;
   font-family: 'Kablammo', sans-serif;
 }
 .improveVLetter {
   font-size: 45px;
   font-weight: normal;
-  text-decoration: none;
+  text-decoration: line-through;
   text-transform: uppercase;
   font-family: 'Monoton', sans-serif;
 }
@@ -620,7 +620,7 @@ body {
 .theirRLetter {
   font-size: 97px;
   font-weight: normal;
-  text-decoration: overline;
+  text-decoration: none;
   text-transform: lowercase;
   font-family: 'Monoton', sans-serif;
 }
@@ -630,14 +630,14 @@ body {
 .rootRLetter {
   font-size: 46px;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: overline;
   text-transform: uppercase;
   font-family: 'Rubik Glitch', sans-serif;
 }
 .rootOLetter {
   font-size: 68px;
   font-weight: normal;
-  text-decoration: overline;
+  text-decoration: line-through;
   text-transform: lowercase;
   font-family: 'Piazolla', sans-serif;
 }
@@ -659,7 +659,7 @@ body {
 /* SKILLS word */
 
 .skillsSLetter {
-  font-size: medium;
+  font-size: 56px;
   font-weight: bold;
   text-decoration: underline;
   text-transform: uppercase;
@@ -668,7 +668,7 @@ body {
 .skillsKLetter {
   font-size: 38px;
   font-weight: normal;
-  text-decoration: overline;
+  text-decoration: line-through;
   text-transform: lowercase;
   font-family: 'Monoton', sans-serif;
 }
@@ -724,3 +724,5 @@ body {
   text-transform: uppercase;
   font-family: 'Rubik Glitch', sans-serif;
 }
+
+

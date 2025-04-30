@@ -129,7 +129,7 @@ body {
 
 .theHLetter {
   font-size: 92px;
-  font-weight: 700px;
+  font-weight: bolder;
   text-decoration: line-through;
   text-transform: lowercase;
   font-family: 'Piazolla', sans-serif;
@@ -724,5 +724,6 @@ body {
   text-transform: uppercase;
   font-family: 'Rubik Glitch', sans-serif;
 }
+
 
 

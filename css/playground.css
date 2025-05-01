@@ -66,136 +66,122 @@ body {
 }
 
   /*Colors*/
-:root {
-  /* HEX Colors */
-  --neon-pink: #ff007f;
-  --electric-blue: #00f0ff;
-  --acid-green: #7fff00;
-  --cyber-grape: #58427c;
-  --hot-magenta: #ff1dce;
-  --deep-purple: #5d00ff;
-  --bright-cyan: #00ffe7;
-  --laser-lemon: #f9ff00;
-  --atomic-tangerine: #ff9966;
-  --vivid-red: #ff073a;
+  :root{
+    /*Laser Lemon*/
+    --laser-lemon: #f9ff00;
+    --laser-lemon-rgb: 249, 255, 0;
+    --laser-lemon-hsl: 62, 100%, 50%;
+   
+    /* Glowing Orange */
+    --glowing-orange: #FF6B00;
+    --glowing-orange-rgb: 255, 107, 0;
+    --glowing-orange-hsl: 25°,100%, 50%;
+   
+   /*Matrix Green */
+   --matrix-green:#03fca1;
+   --matrix-green-rgb: 3, 252, 161;
+   --matrix-green-hsl: 159, 98%, 50%;
+   
+    /* Laser Red */
+    --laser-red: #FF003C;
+    --laser-red-rgb: 255, 0, 60;
+    --laser-red-hsl: 346°,100%, 50%;
+   
+   
+   /*Quantum Violet*/
+   --quantum-violet:#bf00ff;
+   --quantum-viole-rgb: 191, 0, 255;
+   --quantum-viole-hsl: 285, 100%, 50%;
+   
+   /*Ultra Pink */
+   --ultra-pink:#ff00ff;
+   --ultra-pink-rgb: 255, 0, 255;
+   --ultra-pink-hsl: 300, 100%, 50%;
+   
+    /*Electric Blue*/ 
+      --electric-blue: #00f0ff;
+     --electric-blue-rgb: 0, 240, 255;
+     --electric-blue-hsl: 183, 100%, 50%;
+   
+   /*Virtual Teal*/
+   --virtual-teal:#01ffc3;
+   --virtual-teal-rgb: 1, 255, 195;
+   --virtual-teal-hsl: 165, 100%, 50%;
+   
+   
+   /*Sys Failure */
+   --sys-failure:#330011;
+   --sys-failure-rgb: 51, 0, 17;
+   --sys-failure-hsl: 340, 100%, 10%;
+   
+   /*Digital Abyss*/
+   --digital-abyss:#120338;
+   --digital-abyss-rgb: 18, 3, 56;
+   --digital-abyss-hsl: 262, 90%, 12%;
+   
+   /*Void Black */
+   --void-black:#0d0221;
+   --void-black-rgb: 13, 2, 33;
+   --void-black-hsl: 260, 89%, 7%;
+ }
 
-  /* RGB Colors */
-  --neon-pink-rgb: 255, 0, 127;
-  --electric-blue-rgb: 0, 240, 255;
-  --acid-green-rgb: 127, 255, 0;
-  --cyber-grape-rgb: 88, 66, 124;
-  --hot-magenta-rgb: 255, 29, 206;
-  --deep-purple-rgb: 93, 0, 255;
-  --bright-cyan-rgb: 0, 255, 231;
-  --laser-lemon-rgb: 249, 255, 0;
-  --atomic-tangerine-rgb: 255, 153, 102;
-  --vivid-red-rgb: 255, 7, 58;
 
-  /* HSL Colors */
-  --neon-pink-hsl: 330, 100%, 50%;
-  --electric-blue-hsl: 183, 100%, 50%;
-  --acid-green-hsl: 90, 100%, 50%;
-  --cyber-grape-hsl: 260, 30%, 37%;
-  --hot-magenta-hsl: 312, 100%, 56%;
-  --deep-purple-hsl: 260, 100%, 50%;
-  --bright-cyan-hsl: 174, 100%, 50%;
-  --laser-lemon-hsl: 62, 100%, 50%;
-  --atomic-tangerine-hsl: 20, 100%, 70%;
-  --vivid-red-hsl: 345, 100%, 51%;
-}
 
-.neon-pink{
-  color: var(--neon-pink);
+ /*Gradients*/
+ .gradient-cyber-matrix {
+  background-image: radial-gradient(circle at 50% 50%, var(--matrix-green) 0%, var(--digital-abyss-rgb) 100%);
 }
-.electric-blue{
-  color: var(--electric-blue);
+.gradient-glitch-hologram {
+  background: radial-gradient(circle,var(--quantum-violet), var(--laser-lemon));
 }
-.acid-green{
-  color: var(--acid-green);
+.gradient-matrix-rain {
+  background-image: radial-gradient(circle at 80% 20%, var(--matrix-green) 0%, var(--virtual-teal) 100%);
 }
-.cyber-grape{
-  color: var(--cyber-grape);
+.gradient-cybervoid {
+  background-image: radial-gradient(circle at 50% 50%, var(--void-black) 0%, var(--electric-blue-rgb) 100%);
 }
-.hot-magenta{
-  color: var(--hot-magenta);
+.gradient-blaackhole {
+  background: radial-gradient(circle at center, var(--laser-red), var(--void-black) 80%);
 }
-.deep-purple{
-  color: var(--deep-purple);
+.gradient-iridescent {
+  background: radial-gradient(farthest-corner at 40px 40px, var(--virtual-teal) 0%, var(--quantum-violet) 50%, var(--void-black) 100%);
 }
-.bright-cyan{
-  color: var(--bright-cyan);
-}
-.laser-lemon{
-  color: var(--laser-lemon);
-}
-.atomic-tangerine{
-  color: var(--atomic-tangerine);
-}
-.vivid-red{
-  color: var(--vivid-red);
-}
-
-.neon-pink-rgb{
-  color: rgb(var(--neon-pink-rgb));
-}
-.electric-blue-rgb{
-  color: rgb(var(--electric-blue-rgb));
-} 
-.acid-green-rgb{
-  color: rgb(var(--acid-green-rgb));
-}
-.cyber-grape-rgb{
-  color: rgb(var(--cyber-grape-rgb));
-}
-.hot-magenta-rgb{
-  color: rgb(var(--hot-magenta-rgb));
-}
-.deep-purple-rgb{
-  color: rgb(var(--deep-purple-rgb));
-}
-.bright-cyan-rgb{
-  color: rgb(var(--bright-cyan-rgb));
-}
-.laser-lemon-rgb{
-  color: rgb(var(--laser-lemon-rgb));
-}
-.atomic-tangerine-rgb{
-  color: rgb(var(--atomic-tangerine-rgb));
-}
-.vivid-red-rgb{
-  color: rgb(var(--vivid-red-rgb));
+.gradient-dead-cicuit {
+  background: radial-gradient(circle at top right, var(--glowing-orange), var(--void-black), var(--quantum-violet));
 }
 
-/* Backgrounds */
-.neon-pink-bg{
-  background-color: var(--neon-pink);
+.gradient-startup {
+  background: radial-gradient(circle at center, var(--virtual-teal) 0%, var(--digital-abyss) 70%);
 }
-.electric-blue-bg{
-  background-color: var(--electric-blue);
+.gradient-cyberglow {
+  background-image: radial-gradient(circle at 60% 40%, var(--matrix-green-rgb) 0%, var(--electric-blue-2) 100%);
 }
-.acid-green-bg{
-  background-color: var(--acid-green);
+.gradient-terminal-fire {
+  background: radial-gradient(circle, var(--laser-lemon), var( --laser-red));
 }
-.cyber-grape-bg{
-  background-color: var(--cyber-grape);
+
+/*Text Shadow*/
+.text-shadow-neon-ghost {
+  text-shadow: 
+    0 0 20px var(--electric-blue),
+    0 0 40px var(--virtual-teal);
 }
-.hot-magenta-bg{
-  background-color: var(--hot-magenta);
+
+.text-shadow-neon-double {
+  text-shadow: 
+    3px 3px var(--glowing-orange),
+    6px 6px var(--quantum-violet-rgb),;
 }
-.deep-purple-bg{
-  background-color: var(--deep-purple);
-}
-.bright-cyan-bg{
-  background-color: var(--bright-cyan);
-}
-.laser-lemon-bg{
-  background-color: var(--laser-lemon);
-}
-.atomic-tangerine-bg{
-  background-color: var(--atomic-tangerine);
-}
-.vivid-red-bg{
-  background-color: var(--vivid-red);
+
+.text-shadow-hologram {
+  text-shadow: 
+    0 0 10px var(--quantum-violet),
+    0 0 20px var(--virtual-teal-rgb),
+    0 0 30px var(--electric-blue);
 }
 
 
+.text-shadow-halo {
+  text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px var(--matrix-green), 0 0 20px var(--matrix-green), 0 0 40px var(--matrix-green);
+  color: #fff;
+}

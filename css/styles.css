@@ -76,6 +76,7 @@ body {
 }
 
 .whyHLetter {
+  color: var(--electric-blue-rgb);
   font-size: 30px;
   font-weight: bold;
   text-decoration: overline;

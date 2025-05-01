@@ -14,6 +14,66 @@
 /* Rubik Glitch */
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
 
+  /*Colors*/
+  :root{
+    /*Laser Lemon*/
+    --laser-lemon: #f9ff00;
+    --laser-lemon-rgb:rgba( 249, 255, 0);
+    --laser-lemon-hsl: hsl(62, 100%, 50%);
+   
+    /* Glowing Orange */
+    --glowing-orange: #FF6B00;
+    --glowing-orange-rgb: rgb(255, 107, 0);
+    --glowing-orange-hsl: hsl(25,100%, 50%);
+   
+   /*Matrix Green */
+   --matrix-green:#03fca1;
+   --matrix-green-rgb:rgba(3, 252, 161);
+   --matrix-green-hsl: hsl(159, 98%, 50%);
+   
+    /* Laser Red */
+    --laser-red: #FF003C;
+    --laser-red-rgb: rgba(255, 0, 60);
+    --laser-red-hsl:hsl(346,100%, 50%);
+   
+   
+   /*Quantum Violet*/
+   --quantum-violet:#bf00ff;
+   --quantum-viole-rgb: rgba(191, 0, 255);
+   --quantum-viole-hsl: hsl(285, 100%, 50%);
+   
+   /*Ultra Pink */
+   --ultra-pink:#ff00ff;
+   --ultra-pink-rgb:rgba(255, 0, 255);
+   --ultra-pink-hsl:hsl(300, 100%, 50%);
+   
+    /*Electric Blue*/ 
+      --electric-blue: #00f0ff;
+     --electric-blue-rgb:rgba(0, 240, 255);
+     --electric-blue-hsl:hsl(183, 100%, 50%);
+   
+   /*Virtual Teal*/
+   --virtual-teal:#01ffc3;
+   --virtual-teal-rgb:rgba( 1, 255, 195);
+   --virtual-teal-hsl:hsl(165, 100%, 50%);
+
+
+   /*Sys Failure */
+   --sys-failure:#330011;
+   --sys-failure-rgb: rgba(51, 0, 17);
+   --sys-failure-hsl:hsl(340, 100%, 10%);
+   
+   /*Digital Abyss*/
+   --digital-abyss:#120338;
+   --digital-abyss-rgb:rgba( 18, 3, 56);
+   --digital-abyss-hsl: hsl(262, 90%, 12%);
+   
+   /*Void Black */
+   --void-black:#0d0221;
+   --void-black-rgb: rgba(13, 2, 33);
+   --void-black-hsl: hsl(260, 89%, 7%);
+ }
+
 
 
 * {
@@ -65,96 +125,34 @@ body {
   transition: all 0.8s ease-in-out;
 }
 
-  /*Colors*/
-  :root{
-    /*Laser Lemon*/
-    --laser-lemon: #f9ff00;
-    --laser-lemon-rgb: 249, 255, 0;
-    --laser-lemon-hsl: 62, 100%, 50%;
-   
-    /* Glowing Orange */
-    --glowing-orange: #FF6B00;
-    --glowing-orange-rgb: 255, 107, 0;
-    --glowing-orange-hsl: 25°,100%, 50%;
-   
-   /*Matrix Green */
-   --matrix-green:#03fca1;
-   --matrix-green-rgb: 3, 252, 161;
-   --matrix-green-hsl: 159, 98%, 50%;
-   
-    /* Laser Red */
-    --laser-red: #FF003C;
-    --laser-red-rgb: 255, 0, 60;
-    --laser-red-hsl: 346°,100%, 50%;
-   
-   
-   /*Quantum Violet*/
-   --quantum-violet:#bf00ff;
-   --quantum-viole-rgb: 191, 0, 255;
-   --quantum-viole-hsl: 285, 100%, 50%;
-   
-   /*Ultra Pink */
-   --ultra-pink:#ff00ff;
-   --ultra-pink-rgb: 255, 0, 255;
-   --ultra-pink-hsl: 300, 100%, 50%;
-   
-    /*Electric Blue*/ 
-      --electric-blue: #00f0ff;
-     --electric-blue-rgb: 0, 240, 255;
-     --electric-blue-hsl: 183, 100%, 50%;
-   
-   /*Virtual Teal*/
-   --virtual-teal:#01ffc3;
-   --virtual-teal-rgb: 1, 255, 195;
-   --virtual-teal-hsl: 165, 100%, 50%;
-   
-   
-   /*Sys Failure */
-   --sys-failure:#330011;
-   --sys-failure-rgb: 51, 0, 17;
-   --sys-failure-hsl: 340, 100%, 10%;
-   
-   /*Digital Abyss*/
-   --digital-abyss:#120338;
-   --digital-abyss-rgb: 18, 3, 56;
-   --digital-abyss-hsl: 262, 90%, 12%;
-   
-   /*Void Black */
-   --void-black:#0d0221;
-   --void-black-rgb: 13, 2, 33;
-   --void-black-hsl: 260, 89%, 7%;
- }
-
-
 
  /*Gradients*/
  .gradient-cyber-matrix {
-  background-image: radial-gradient(circle at 50% 50%, var(--matrix-green) 0%, var(--digital-abyss-rgb) 100%);
+  background: radial-gradient(circle at 50% 50%, var(--matrix-green) 0%, var(--digital-abyss-rgb) 100%);
 }
 .gradient-glitch-hologram {
   background: radial-gradient(circle,var(--quantum-violet), var(--laser-lemon));
 }
 .gradient-matrix-rain {
-  background-image: radial-gradient(circle at 80% 20%, var(--matrix-green) 0%, var(--virtual-teal) 100%);
+  background: radial-gradient(circle at 80% 20%, var(--matrix-green) 0%, var(--virtual-teal) 100%);
 }
 .gradient-cybervoid {
-  background-image: radial-gradient(circle at 50% 50%, var(--void-black) 0%, var(--electric-blue-rgb) 100%);
+  background: radial-gradient(circle at 50% 50%, var(--void-black) 0%, var(--electric-blue-rgb) 100%);
 }
-.gradient-blaackhole {
+.gradient-blackhole {
   background: radial-gradient(circle at center, var(--laser-red), var(--void-black) 80%);
 }
 .gradient-iridescent {
   background: radial-gradient(farthest-corner at 40px 40px, var(--virtual-teal) 0%, var(--quantum-violet) 50%, var(--void-black) 100%);
 }
-.gradient-dead-cicuit {
+.gradient-dead-circuit {
   background: radial-gradient(circle at top right, var(--glowing-orange), var(--void-black), var(--quantum-violet));
 }
-
 .gradient-startup {
   background: radial-gradient(circle at center, var(--virtual-teal) 0%, var(--digital-abyss) 70%);
 }
 .gradient-cyberglow {
-  background-image: radial-gradient(circle at 60% 40%, var(--matrix-green-rgb) 0%, var(--electric-blue-2) 100%);
+  background: radial-gradient(circle at 60% 40%, var(--matrix-green-rgb) 0%, var(--electric-blue) 100%);
 }
 .gradient-terminal-fire {
   background: radial-gradient(circle, var(--laser-lemon), var( --laser-red));
@@ -167,11 +165,6 @@ body {
     0 0 40px var(--virtual-teal);
 }
 
-.text-shadow-neon-double {
-  text-shadow: 
-    3px 3px var(--glowing-orange),
-    6px 6px var(--quantum-violet-rgb),;
-}
 
 .text-shadow-hologram {
   text-shadow: 
@@ -180,8 +173,212 @@ body {
     0 0 30px var(--electric-blue);
 }
 
-
 .text-shadow-halo {
   text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px var(--matrix-green), 0 0 20px var(--matrix-green), 0 0 40px var(--matrix-green);
   color: #fff;
+}
+
+
+
+/* Cyber Neon Text */
+.cyber-neon {
+  color: var(--electric-blue);
+  background: radial-gradient(circle at 50% 50%, var(--void-black) 0%, var(--digital-abyss) 100%);
+  text-shadow: 0 0 5px var(--electric-blue), 0 0 10px var(--electric-blue), 0 0 15px var(--electric-blue);
+}
+
+/* Digital Matrix */
+.digital-matrix {
+  color: var(--matrix-green);
+  background: radial-gradient(circle at 30% 30%, var(--void-black) 0%, var(--sys-failure) 100%);
+  text-shadow: 0 0 8px var(--matrix-green), 0 0 12px var(--matrix-green-rgb);
+}
+
+/* Quantum Pulse */
+.quantum-pulse {
+  color: var(--quantum-violet);
+  background: radial-gradient(circle at 70% 50%, var(--digital-abyss) 0%, var(--void-black) 80%);
+  text-shadow: 0 0 7px var(--quantum-violet), 0 0 14px var(--quantum-violet-rgb);
+}
+
+/* Laser Strike */
+.laser-strike {
+  color: var(--laser-red);
+  background: radial-gradient(circle at 20% 80%, var(--sys-failure) 0%, var(--void-black) 90%);
+  text-shadow: 0 0 6px var(--laser-red), 0 0 12px var(--laser-red-rgb), 0 0 18px var(--laser-red);
+}
+
+/* Holo Glow */
+.holo-glow {
+  color: var(--virtual-teal);
+  background: radial-gradient(circle at 50% 40%, var(--digital-abyss) 0%, var(--void-black) 70%); 
+  text-shadow: 0 0 5px var(--virtual-teal), 0 0 10px var(--virtual-teal-rgb), 0 0 15px var(--virtual-teal);
+}
+
+/* Solar Flare */
+.solar-flare {
+  color: var(--laser-lemon);
+  background: radial-gradient(circle at 60% 30%, var(--glowing-orange-rgb) 0%, var(--sys-failure) 80%);
+  text-shadow: 0 0 7px var(--laser-lemon), 0 0 14px var(--laser-lemon-rgb);
+}
+
+/* Circuit Glitch */
+.circuit-glitch {
+  color: var(--ultra-pink);
+  background: radial-gradient(circle at 40% 60%, var(--digital-abyss) 10%, var(--void-black) 90%);
+  text-shadow: 1px 1px 2px var(--ultra-pink), -1px -1px 2px var(--electric-blue), 0 0 8px var(--ultra-pink-rgb);
+}
+
+/* Binary Surge */
+.binary-surge {
+  color: white;
+  background: radial-gradient(circle at 50% 50%, var(--matrix-green-rgb) 0%, var(--digital-abyss) 90%);
+  text-shadow: 0 0 3px white, 0 0 6px var(--matrix-green), 0 0 9px var(--electric-blue);
+}
+
+/* Virtual Reality */
+.virtual-reality {
+  color: var(--electric-blue);
+  background: radial-gradient(circle at 70% 30%, var(--digital-abyss-rgb) 0%, var(--void-black) 70%);
+  text-shadow: 0 0 5px var(--electric-blue), 0 0 10px var(--virtual-teal), 0 0 15px var(--quantum-violet);
+}
+
+/* System Error */
+.system-error {
+  color: var(--laser-red);
+  background: radial-gradient(circle at 30% 70%, var(--void-black) 0%, var(--sys-failure) 90%);
+  text-shadow: 1px 1px 3px var(--laser-red), -1px -1px 3px var(--laser-red), 0 0 10px var(--laser-red-rgb);
+}
+
+/* Augmented Vision */
+.augmented-vision {
+  color: var(--virtual-teal);
+  background: radial-gradient(circle at 60% 40%, var(--void-black) 0%, var(--digital-abyss) 100%);
+  text-shadow: 0 0 4px var(--virtual-teal), 0 0 8px var(--matrix-green), 0 0 12px var(--electric-blue);
+}
+
+/* Cyberspace Void */
+.cyberspace-void {
+  color: var(--quantum-violet);
+  background: radial-gradient(circle at 45% 55%, var(--void-black) 0%, var(--digital-abyss) 80%);
+  text-shadow: 0 0 6px var(--quantum-violet), 0 0 12px var(--ultra-pink), 0 0 18px var(--quantum-violet-rgb);
+}
+
+/* Neural Network */
+.neural-network {
+  color: var(--matrix-green);
+  background: radial-gradient(circle at 50% 50%, var(--digital-abyss) 20%, var(--void-black) 100%);
+  text-shadow: 0 0 5px var(--matrix-green), 0 0 10px var(--matrix-green-rgb), 0 0 15px var(--electric-blue);
+}
+
+/* Dystopian Alert */
+.dystopian-alert {
+  color: var(--glowing-orange);
+  background: radial-gradient(circle at 30% 30%, var(--sys-failure) 0%, var(--void-black) 80%);
+  text-shadow: 0 0 6px var(--glowing-orange), 0 0 12px var(--laser-red), 0 0 18px var(--glowing-orange-rgb);
+}
+
+/* Holographic Interface */
+.holographic-interface {
+  color: var(--electric-blue);
+  background: radial-gradient(circle at 55% 45%, var(--digital-abyss-rgb) 10%, var(--void-black) 90%);
+  text-shadow: 0 0 4px var(--electric-blue), 0 0 8px var(--virtual-teal), 0 0 12px var(--quantum-violet), 0 0 16px var(--ultra-pink);
+}
+
+/* Neon Cityscape */
+.neon-cityscape {
+  color: var(--ultra-pink);
+  background: radial-gradient(circle at 25% 75%, var(--sys-failure) 0%, var(--void-black) 85%);
+  text-shadow: 0 0 5px var(--ultra-pink), 0 0 10px var(--electric-blue), 0 0 15px var(--ultra-pink-rgb);
+}
+
+/* Code Injection */
+.code-injection {
+  color: var(--matrix-green);
+  background: radial-gradient(circle at 65% 35%, var(--digital-abyss) 20%, var(--void-black) 95%);
+  text-shadow: 0 0 4px var(--matrix-green), 0 0 8px var(--virtual-teal), 1px 1px 1px var(--matrix-green-rgb);
+}
+
+/* Digital Wasteland */
+.digital-wasteland {
+  color: var(--glowing-orange);
+  background: radial-gradient(circle at 40% 60%, var(--sys-failure) 10%, var(--void-black) 90%);
+  text-shadow: 0 0 6px var(--glowing-orange), 0 0 12px var(--laser-red), 2px 2px 4px var(--void-black);
+}
+
+/* Synthetic Dreams */
+.synthetic-dreams {
+  color: var(--quantum-violet);
+  background: radial-gradient(circle at 60% 40%, var(--digital-abyss) 0%, var(--void-black) 75%);
+  text-shadow: 0 0 5px var(--quantum-violet), 0 0 10px var(--electric-blue), 0 0 15px var(--quantum-viole-rgb);
+}
+
+/* Techno Pulse */
+.techno-pulse {
+  color: var(--virtual-teal);
+  background: radial-gradient(circle at 50% 50%, var(--digital-abyss) 30%, var(--void-black) 100%);
+  text-shadow: 0 0 5px var(--virtual-teal), 0 0 10px var(--electric-blue), 0 0 15px var(--virtual-teal-rgb);
+}
+
+/* Bionic Vision */
+.bionic-vision {
+  color: var(--electric-blue);
+  background: radial-gradient(circle at 75% 25%, var(--void-black) 0%, var(--digital-abyss) 90%);
+  text-shadow: 0 0 4px var(--electric-blue), 0 0 8px var(--matrix-green), 0 0 12px var(--electric-blue-rgb);
+}
+
+/* Retro Future */
+.retro-future {
+  color: var(--laser-lemon);
+  background: radial-gradient(circle at 35% 65%, var(--digital-abyss) 0%, var(--sys-failure) 100%);
+  text-shadow: 0 0 6px var(--laser-lemon), 0 0 12px var(--glowing-orange), 0 0 18px var(--laser-lemon-rgb);
+}
+
+/* Terminal Hack */
+.terminal-hack {
+  color: var(--matrix-green);
+  background: radial-gradient(circle at 20% 80%, var(--void-black) 10%, var(--digital-abyss) 100%);
+  text-shadow: 0 0 3px var(--matrix-green), 0 0 6px var(--matrix-green-rgb), 1px 1px 1px var(--void-black);
+}
+
+/* Plasma Discharge */
+.plasma-discharge {
+  color: var(--electric-blue);
+  background: radial-gradient(circle at 50% 50%, var(--quantum-violet-rgb) 0%, var(--void-black) 80%);
+  text-shadow: 0 0 5px var(--electric-blue), 0 0 10px var(--quantum-violet), 0 0 15px var(--ultra-pink);
+}
+
+/* Cybernetic Interface */
+.cybernetic-interface {
+  color: var(--virtual-teal);
+  background: radial-gradient(circle at 60% 40%, var(--void-black) 0%, var(--digital-abyss) 85%);
+  text-shadow: 0 0 5px var(--virtual-teal), 0 0 10px var(--matrix-green), 0 0 15px var(--virtual-teal-rgb);
+}
+
+/* Neural Grid */
+.neural-grid {
+  color: var(--laser-lemon);
+  background: radial-gradient(circle at 45% 55%, var(--digital-abyss) 0%, var(--void-black) 70%);
+  text-shadow: 0 0 4px var(--laser-lemon), 0 0 8px var(--glowing-orange), 0 0 12px var(--laser-lemon-rgb);
+}
+
+/* Dystopian Signal */
+.dystopian-signal {
+  color: var(--laser-red);
+  background: radial-gradient(circle at 30% 70%, var(--sys-failure) 0%, var(--void-black) 100%);
+  text-shadow: 0 0 5px var(--laser-red), 0 0 10px var(--laser-red-rgb), 1px 1px 2px var(--void-black);
+}
+
+/* Data Stream */
+.data-stream {
+  color: var(--matrix-green);
+  background: radial-gradient(circle at 70% 30%, var(--void-black) 20%, var(--digital-abyss) 90%);
+  text-shadow: 0 0 5px var(--matrix-green), 0 0 10px var(--virtual-teal), 0 0 15px var(--matrix-green-rgb);
+}
+
+/* Quantum Breach */
+.quantum-breach {
+  color: var(--quantum-violet);
+  background: radial-gradient(circle at 50% 50%, var(--void-black) 10%, var(--sys-failure) 95%);
+  text-shadow: 0 0 6px var(--quantum-violet), 0 0 12px var(--ultra-pink), 0 0 18px var(--quantum-viole-rgb);
 }

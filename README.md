@@ -56,7 +56,7 @@ This assignment should prove that a student is able to:
   - Font transformation
   - Font family
 - [x] Set the font size using fixed pixel values.
-- [ ] Use at least two color systems of your choice for setting the color (hex, rgb, hsl, etc.).
+- [x] Use at least two color systems of your choice for setting the color (hex, rgb, hsl, etc.).
 - [x] Ensure each font weight value from the given list is used at least once:
   - Bold
   - Normal

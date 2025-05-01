@@ -95,6 +95,7 @@ body {
 /* DID word */
 
 .didDLetter {
+  color: var(--sys-failure);
   font-size: 50px;
   font-weight: bold;
   text-decoration: line-through;

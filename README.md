@@ -69,7 +69,7 @@ This assignment should prove that a student is able to:
   - None
 - [x] Include capitalized letters.
 - [x] Style every letter in the message.
-- [ ] Group selectors with the same styles.
+- [x] Group selectors with the same styles.
 
   You can group the letter selectors by the common styles:
 
